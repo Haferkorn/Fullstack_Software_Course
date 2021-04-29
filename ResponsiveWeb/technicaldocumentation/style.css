@@ -1,0 +1,35 @@
+body{
+    display: flex; 
+    flex-direction: row-reverse;
+    background-color: lightgray;
+}
+header{
+    font-size: 30px;
+}
+.main-section{
+    border: 2px solid black; 
+    padding: 20px;
+    margin: 30px;
+    background-color: whitesmoke;
+}
+a{
+    font-size: 26px;
+    color: black;
+    display: block;
+    margin-top: 20px;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: teal;
+    text-decoration-thickness: 6px;
+
+}
+@media only screen and (max-width: 768px){
+   a{
+    font-size:16px;
+    }
+}
+  
