@@ -1,0 +1,93 @@
+
+  body{
+    text-align: center;
+    background-color: white;
+    font-family: Nunito;
+  }
+  p{
+    font-size: 20px;
+    margin: 100px; 
+  }
+  h1{
+    text-decoration: underline;
+    text-decoration-color: #618985;
+    text-decoration-thickness: 5px;
+  }
+  #grafics{
+    display: flex;
+  }
+ 
+  #background-div{
+    display: inline;
+    width: 500px;
+    height: 500px;
+    background-color: #C19875;
+    clip-path: polygon(50% 0%, 34% 29%, 38% 55%, 51% 80%, 80% 90%, 50% 100%, 21% 79%, 0 76%, 4% 36%, 24% 14%);
+    position: relative;
+    left: 35%;
+    top: 85%;
+  }
+  @media only screen and (max-width: 768px)
+  {
+    #background-div{
+      display: inline;
+      width: 300px;
+      height: 300px;
+      background-color: #C19875;
+      clip-path: polygon(50% 0%, 34% 29%, 38% 55%, 51% 80%, 80% 90%, 50% 100%, 21% 79%, 0 76%, 4% 36%, 24% 14%);
+      position: relative;
+      left: 35%;
+      top: 85%;
+    }
+  }
+  #image{
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin:  auto; 
+    clip-path: polygon(50% 0%, 83% 25%, 100% 35%, 100% 70%, 66% 84%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+  }
+  #Schweine-Container{
+    display: flex;
+  }
+  #Dayla-Container{
+    border: 2px solid #618985;
+    border-radius: 20%;
+    margin-right: 5px;
+  }
+  #Toni-Container{
+    border: 2px solid #618985;
+    border-radius: 20%;
+  }
+  #daylaimage{
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin:  auto; 
+    clip-path: polygon(52% 6%, 90% 20%, 100% 60%, 75% 100%, 25% 82%, 3% 61%, 10% 20%);
+  }
+  #toniimage{
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin:  auto; 
+    clip-path: polygon(31% 4%, 77% 3%, 94% 51%, 75% 100%, 25% 100%, 0% 50%);
+  }
+  li{
+    list-style-type: none;
+  }
+  a{
+    color:white;
+    border: 5px solid #C19875;
+    background-color: #C19875;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding: 5px;
+    max-width: 500px;
+    align-content: center;
+  }
+  a:hover{
+    border: 5px solid #618985;
+    background-color: #618985;
+  }
