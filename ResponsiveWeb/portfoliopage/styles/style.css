@@ -1,0 +1,52 @@
+body{
+    background-color: gray;
+    color: white;
+}
+#navbar{
+   position: sticky;
+   top: 10px;
+}
+ul{
+    display: flex;
+    align-content: center;
+   
+}
+li{
+    display: block;
+    margin: 20px;
+    font-size: 20px;
+    color: white; 
+}
+#welcome-section{
+    border: 5px solid white; 
+    height: 100vh;
+}
+h1{
+   text-align: center;
+   font-size: 45px;
+}
+@media only screen and (max-width: 768px)
+{
+ h1{
+   font-size: 27px;
+  }
+}
+img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: auto;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  
+}
+#projects{
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 20px;
+}
+.project{
+    border: 2px dotted white;
+    width: 30%;
+}
