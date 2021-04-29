@@ -11,7 +11,7 @@ With this two paths, I'm learning, practicing and successfully applied following
 
 - Command Line Commands
 - Git
-- JavaScript
+- JavaScript (repo: [Javascript Algorithms and Dats Structures](https://github.com/Haferkorn/Fullstack_Software_Course/tree/main/Javascript_Algo_Data)
 - HTML
 - CSS
 - Accessiblity
