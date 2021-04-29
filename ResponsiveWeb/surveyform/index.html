@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Anette Haferkorn">
+        <meta name="keywords" content=" a survey form">
+        <meta name="description" content="A little survery form just to present my css skills " />
+        <link rel="stylesheet" href="styles/style.css"> 
+        <title>My Survey-Form</title>
+        <style></style>
+    </head>
+    <body>
+       <main>
+         <h1 id="titel"> My Survey </h1>
+         <p id="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <form id="survey-form">
+          <label for="Name-label">Please enter your Name:</label><br>
+             <input type="text" id="Name-label" name="Name"><br>
+
+          <label for="Mail-label">Please enter your E-Mail Adresse:</label><br>
+             <input type="email" id="Mail-label"><br>
+
+          <label for="Number-label"> Please enter a number beetween 1 and 5:</label><br>
+            <input type="number" id="Number-label" min="1" max="5"><br>
+  
+         <label for="jobs-label">Choose your dream job :</label>
+
+            <select name="jobs" id="jobs-label">
+              <option value="programmer">Programmer</option>
+              <option value="Manager">Manager</option>
+              <option value="Recruiter">Recruiter</option>
+              <option value="Artist">Artist</option>
+            </select><br>
+  
+            <h2> Some personal questions: </h2>
+            <div id="container-radio">
+              <label for="male">Male</label><input type="radio" id="male" name="gender" value="male"><br>
+              <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                    <br>
+               <label for="other">Other</label>
+                <input type="radio" id="other" name="gender" value="other"><br>
+             </div>
+            
+             <h2> What languages do you speak? </h2>
+            <div id="container-check">
+            <label for="language1"> I speek french</label>
+             <input type="checkbox" id="language1" name="language1" value="French">
+                <br>   
+             <label for="language2"> I speek english</label>
+              <input type="checkbox" id="language2" name="language2" value="English">
+                 <br>
+            <label for="language3"> I speak german</label>
+               <input type="checkbox" id="language3" name="language3" value="German"><br>
+             </div>
+            
+            <label for="textarea-lebel">Review of this survey:</label><br>
+            <textarea id="textarea-label" name="reviews" rows="4" cols="50">
+            Please leave a few comments, ideas or thoughts 
+            </textarea><br>
+            
+             <div id="container">
+                 <input type="submit" value="Submit">
+                 <input type="reset" value="Reset">
+             </div>
+            </form> 
+        </main>
+    </body>
+ </html>
