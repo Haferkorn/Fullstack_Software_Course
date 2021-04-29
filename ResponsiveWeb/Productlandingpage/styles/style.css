@@ -1,0 +1,126 @@
+body{
+    font-family: Coiny;
+    background-color: #F3E9D2;
+}
+img{
+    width: 100%;
+}
+header{
+    position: relative;
+    border: 5px solid red; 
+    width: 100%;
+}
+#header-img{
+    filter: opacity(0.5);
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#heading{
+    font-size: 64px;
+    position: absolute;
+    top:30%;
+    left: 25%;
+    color: white;
+}
+#slogan{
+    font-size: 54px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: white;
+}
+@media only screen and (max-width: 768px)
+{ #heading{
+    font-size: 34px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+
+}
+}
+@media only screen and (max-width: 768px)
+{
+#slogan{
+    font-size: 24px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}    
+}
+ul{
+    display: flex;
+   
+}
+li{
+    margin-right: 10px;
+    font-size: 36px;
+    list-style: none;
+    margin: auto;
+    background-color: grey;
+    opacity: 0.9;
+    border-radius: 30%;
+    padding: 10px;
+    margin-top: -130px;
+    z-index: 1;
+
+}
+@media only screen and (max-width: 768px)
+{
+li{
+    font-size: 15px;
+}    
+}
+#aboutus{
+    display: flex;
+}
+
+#text1 h2{
+    font-size: 54px;
+    text-decoration: underline;
+    text-decoration-color: #1A936F;
+    margin: auto;
+    margin-left: 20%;
+}
+#text1 p{
+    font-size: 26px;
+    margin-left: 10px;
+}
+
+#cat{
+    display: block;
+    width: 70%;
+    clip-path: polygon(0 0, 65% 0, 100% 100%, 28% 100%);
+}
+#ourservices h2{
+    font-size: 54px;
+    text-decoration: underline;
+    text-decoration-color: #1A936F;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+#testimonials{
+    
+    display: flex; 
+}
+.animal{
+    margin-right: 5px;
+    width: 33%;
+    background-color: #C6DABF; 
+}
+.animal p {
+    margin-left: 5px; 
+}
+.animal-img{
+    width: 100%;
+    clip-path: circle(50% at 50% 50%);
+}
+#contact h2{
+    font-size: 54px;
+    text-decoration: underline;
+    text-decoration-color: #1A936F;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 20%;
+}
