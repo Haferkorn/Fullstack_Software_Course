@@ -1,4 +1,4 @@
-#Fullstack Software Engineering Course
+#Fullstack Software Engineering Portfolio
 
 
 This repository is for completed projects and code snippets from Freecodecamp JavaScript Algorithms and Data Structures https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/ and Codecademy Fullstack engineer career path:  https://www.codecademy.com/learn/paths/full-stack-engineer-career-path:
