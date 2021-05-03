@@ -30,7 +30,7 @@ With this two paths, I'm learning, practicing and successfully applied following
 
 List of projects:
 
-Hurricane Analysis Challenge Project (Python): This project aimed to use the basics of Python programming (dictionaries, loops, conditionals, etc.) to analyze data and put it into context.
+- tbc
 
 
 
