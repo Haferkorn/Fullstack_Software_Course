@@ -12,14 +12,15 @@ With this two paths, I'm learning, practicing and successfully applied following
 - Command Line Commands
 - Git
 - JavaScript (repo: [Javascript Algorithms and Dats Structures](https://github.com/Haferkorn/Fullstack_Software_Course/tree/main/Javascript_Algo_Data) )
+- Python
 - HTML
 - CSS
 - Accessiblity
 - Test Driven Development with JavaScript
 - Async JavaScript and HTTP Requests
 - React
-- Redux
-- Back-End with Node/Express.js
+- Django
+- Back-End with Node/Express.js/Django
 - Back-End and Feature Testing
 - SQL for Back-End Development
 - PostgreSQL Database
@@ -30,7 +31,7 @@ With this two paths, I'm learning, practicing and successfully applied following
 
 List of projects:
 
-- tbc
+- [Django Blog (tbc)](https://github.com/Haferkorn/Fullstack_Software_Dev_Portfolio/tree/main/Python%7CDjango/Django_my_blog)
 
 
 
