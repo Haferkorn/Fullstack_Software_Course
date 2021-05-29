@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+    <head>
+        <title>Anettes Blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header" >
+            <h1><a href="/">Anettes Blog</a></h1>   
+        </div>
+        <div id="posts">
+        {% for post in posts %}
+        <div id="post">
+            <p id="date">published: {{ post.published_date }}</p>
+            <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </div>
+    {% endfor %}
+    
