@@ -1,0 +1,57 @@
+html{
+    background-color: #E8EDDF;
+}
+
+body{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      margin-right: 10%;
+      margin-left:10%
+    }
+  }
+h1 {
+    color: #646165;
+    font-family: 'Quicksand', sans-serif;
+}
+#slogan{
+    font-family: 'Quicksand', sans-serif;
+    color: #646165;
+    padding: 10%;
+    background-color: #CFDBD5;
+    border: 1px solid #00AFB5
+}
+#parti{
+    font-style: italic;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+#button{
+    display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #00AFB5;
+}
+#button:hover{
+    background-color: #F4442E;
+}
