@@ -32,6 +32,7 @@ With this two paths, I'm learning, practicing and successfully applied following
 List of projects:
 
 - [Django Blog (tbc)](https://github.com/Haferkorn/Fullstack_Software_Dev_Portfolio/tree/main/Python%7CDjango/Django_my_blog)
+- [Random Quote Machine](https://github.com/Haferkorn/Fullstack_Software_Dev_Portfolio/tree/main/RandomSloganGenerator)
 
 
 
